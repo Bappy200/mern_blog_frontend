@@ -1,0 +1,78 @@
+.header_section{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    z-index: -1;
+}
+
+.header_image{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    z-index: -1;
+}
+.header_content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.header_content h1{
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    position: relative;
+}
+.header_content h1::after{
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -5px;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 10px;
+    background: url(../../Assects/shape.svg);
+    z-index: -1;
+}
+.header_content p{
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: #fff;
+    text-align: center;
+    margin-top: 15px;
+}
+
+@media (max-width: 992px) {
+    .header_content h1{
+        font-size: 45px;
+    }
+}
+
+@media (max-width: 768px) {
+    .header_content h1{
+        font-size: 40px;
+    }
+}
+@media (max-width: 550px) {
+    .header_content h1{
+        font-size: 35px;
+    }
+}
+@media (max-width: 500px) {
+   
+    .header_content h1{
+        font-size: 33px;
+    }
+    .header_content h1::after{
+        width: 100px;
+    }
+}
