@@ -1,0 +1,24 @@
+.submit_button{
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    color: #fff;
+    margin-top: 15px;
+    transition: all .4s;
+    border-radius: 25px;
+    background-color: rgb(45, 141, 45);
+}
+.submit_button:hover{
+    background: rgb(1, 189, 73);
+}
+.user_comments_section_feedback{
+    padding: 50px 0px;
+}
+.user_comments_section_feedback h4{
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 20px;
+    text-transform: capitalize;
+}

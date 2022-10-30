@@ -3,8 +3,13 @@
     position:sticky;
     top: 0%;
     left: 0%;
+    height: 70px;
+    z-index: 9999;
     
   }
+.navbar_custom .container{
+    background: #F4F5FA ;
+}
 .navbar-brand img{
     width: 45px;
 }

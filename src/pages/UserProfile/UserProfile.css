@@ -1,0 +1,12 @@
+.user_profile_section_user_name{
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: capitalize;
+    padding: 20px 0px;
+}
+.user_profile_section_title{
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: capitalize;
+    padding-bottom: 20px;
+}

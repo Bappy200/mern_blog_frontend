@@ -25,7 +25,7 @@ function NavBar() {
             <Link className="nav-link nav_link_custom" to="/blogs">Blogs</Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link nav_link_custom" to="/">What is AKO?</Link>
+            <Link className="nav-link nav_link_custom" to="/create/blog">Create Blog</Link>
           </li>
           <li className="nav-item">
             <Link className="nav-link nav_link_custom" to="/">Learn</Link>

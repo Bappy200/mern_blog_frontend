@@ -1,0 +1,51 @@
+.register_section{
+    width: 100%;
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.register_content{
+    width: 450px;
+    padding: 40px;
+    background: #e7eafa;
+    position: relative;
+}
+
+.register_content_title{
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+    padding-bottom: 25px;
+}
+.register_content_form,.login_conent_from_input{
+    width: 100%;
+}
+.register_conent_from_input label{
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 20px;
+    text-transform: capitalize;
+    padding-bottom: 5px;
+}
+.register_conent_from_input input{
+    outline: none;
+    width: 100%;
+    padding: 5px;
+    border: 1px solid rgb(26, 26, 26);
+}
+.error_register{
+    font-size: 13px;
+    font-weight: 500;
+    color: rgb(224, 60, 60);
+}
+.register_submit{
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    background: rgb(158, 209, 194);
+    text-transform: capitalize;
+    font-weight: 500;
+    margin-top: 25px;
+    color: black;
+}

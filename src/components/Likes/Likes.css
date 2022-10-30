@@ -1,0 +1,37 @@
+.likes_section{
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.likes_content{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: rgb(45, 141, 45);
+    box-shadow: 1px 1px 2px rgb(152, 168, 167);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 1px solid rgb(114, 192, 147);
+}
+.likes_content_count{
+    position: absolute;
+    left: 50%;
+    bottom: 10px;
+    transform: translateX(-50%);
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+}
+.likes_content svg{
+    color: #fff;
+    font-size: 30px;
+    transition: .4s;
+}
+.likes_content:hover svg{
+    font-size: 40px;
+}

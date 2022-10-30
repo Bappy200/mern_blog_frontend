@@ -1,0 +1,18 @@
+.create_blog_secation{
+    padding: 50px 0px;
+
+}
+.register_content_form{
+    padding-top: 50px;
+}
+.create_blog_conent_from_input textarea{
+    outline: none;
+    width: 100%;
+    padding: 5px;
+    border: 1px solid rgb(26, 26, 26);
+    min-height: 400px;
+
+}
+.create_blog_secation_img img{
+    width: 100%;
+}

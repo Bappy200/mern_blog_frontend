@@ -1,0 +1,44 @@
+.comments_content{
+    margin: 8px 0px;
+    background: #e7eafa;
+    padding: 10px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: relative;
+}
+
+.comments_user_image img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 5px;
+    margin-right: 15px;
+}
+.comments_content_username{
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.comments_content_body_text{
+    padding: 10px 0px;
+}
+.comments_content_body_date{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    font-size: 13px;
+    font-weight: 500;
+    background-color: #fff;
+    border-radius: 30px;
+    padding: 8px;
+}
+
+@media only screen and (max-width:550px) {
+    .comments_user_image img{
+        width: 45px;
+        height: 45px;
+    }
+}

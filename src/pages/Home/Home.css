@@ -1,0 +1,15 @@
+.home_container{
+    padding: 50px 0px;
+}
+.home_left_side{
+    background: #ffff;
+}
+
+.home_right_side{
+    padding-left: 10px;
+    position: sticky;
+    top: 70px;
+    height: auto;
+    z-index: 999;
+}
+

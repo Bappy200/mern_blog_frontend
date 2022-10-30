@@ -1,0 +1,23 @@
+.post_category_content{
+    background: #e7eafa;
+    padding: 15px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    border: 1px rgba(104, 104, 104, 0.63);
+}
+.post_category_item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    margin-top: 5px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.post_category_item h6{
+    color: rgb(24, 24, 24);
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: capitalize;
+}

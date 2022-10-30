@@ -1,5 +1,4 @@
 import React from 'react'
-import { headerTopImage } from '../../importImage'
 import "./Header.css"
 
 
@@ -10,7 +9,7 @@ function Header({title, headerImage, desc}) {
       <div className="container">
           <div className='header_content'>
               <h1>{title}</h1>
-              <p>{desc}</p>
+              {desc&& <p>{desc}</p>}
           </div>
       </div>
     </div>

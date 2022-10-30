@@ -1,23 +1,17 @@
 import React from 'react'
-import { Header, Layout, Post, PostCategory, Recommended } from '../../components'
+import { Layout, Post, UserLeft } from '../../components'
 import { allPosts } from '../../data'
-import { headerTopImage } from '../../importImage'
-import "./Home.css"
-
-const homeHeaderInfo = {
-  title: "Jubayer Vlog",
-  desc: "This website that contains online personal reflections, comments, and often hyperlinks, videos, and photographs provided by the writer also",
-  headerImage : headerTopImage,
-}
-
-function Home() {
+import "./UserProfile.css"
+function UserProfile() {
   return (
     <Layout>
-        <Header {...homeHeaderInfo}/>
+        <div className='user_profile_section'>
         <div className='container home_container'>
             <div className='row'>
                 <div className='col-sm-12 col-md-8'>
                     <div className='home_left_side'>
+                        <h2 className='user_profile_section_user_name'>@User Name</h2>
+                        <h5 className='user_profile_section_title'>All Blogs</h5>
                       <div className='row'>
                             {
                               allPosts.map(post => <Post key={post.id} props={post}/>)
@@ -27,14 +21,14 @@ function Home() {
                 </div>
                 <div className='col-sm-12 col-md-4'>
                   <div className="home_right_side">
-                      <PostCategory/>
-                      <Recommended title="Top" type="top"/>
+                      <UserLeft/>                      
                   </div>  
                 </div>
             </div>
+        </div> 
         </div>
     </Layout>
   )
 }
 
-export default Home
+export default UserProfile

@@ -1,0 +1,34 @@
+.blog_detailes_categorys_tag{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.blog_detailes_categorys_tag_item{
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: capitalize;
+    padding-right: 10px;
+    cursor: pointer; 
+}
+.blog_detailes_content{
+    padding-bottom: 50px;
+}
+.blog_detailes_content h2{
+    font-size: 35px;
+    font-weight: 600;
+    padding-top: 10px;
+}
+.blog_detailes_content_date{
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 35px;
+    text-transform: uppercase;
+}
+.blog_detailes_content_desc{
+    font-size: 16px;
+}
+.blog_detailes_content_first_letter{
+    text-transform: uppercase;
+    font-size: 25px;
+    font-size: 500;
+}
