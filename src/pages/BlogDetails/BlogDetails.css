@@ -1,3 +1,6 @@
+.home_left_side{
+    padding: 50px;
+}
 .blog_detailes_categorys_tag{
     display: flex;
     justify-content: flex-start;
@@ -31,4 +34,11 @@
     text-transform: uppercase;
     font-size: 25px;
     font-size: 500;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .home_left_side{
+        padding: 25px;
+    }
 }
